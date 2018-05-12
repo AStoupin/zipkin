@@ -15,7 +15,7 @@
 		<groupId>com.example.howtodoinjava</groupId>
 		 <artifactId>zipkin</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-  </parent>
+  	</parent>
 
 	
 
@@ -28,10 +28,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -42,6 +42,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-spring-boot-starter-jaxws</artifactId>
+			<version>3.2.2</version>
+		</dependency>		
+		
+
+
+		
 	</dependencies>
 
 	<dependencyManagement>
